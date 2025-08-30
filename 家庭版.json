@@ -1,0 +1,1015 @@
+{
+  "common": {
+    "app_name": "卡巴斯基家用反勒索软件工具",
+    "version": "版本",
+    "copy_path": "复制路径",
+    "save": "保存",
+    "cancel": "取消",
+    "unblock": "解除阻止",
+    "add": "添加",
+    "remove": "移除",
+    "advanced": "高级",
+    "close": "关闭",
+    "required": "必填",
+    "user_name": "用户名",
+    "password": "密码",
+    "login": "登录",
+    "host": "主机",
+    "port": "端口",
+    "none": "无",
+    "details": "详细信息",
+    "restart": "重启",
+    "read": "读取",
+    "activate": "激活",
+    "on": "在",
+    "at": "在",
+    "anti_ransomware_tool": "反勒索软件工具",
+    "for_edition": "家用版",
+    "copy_to_clipboard": "复制到剪贴板",
+    "ok_label": "确定",
+    "confirm": "确认",
+    "later": "稍后",
+    "next": "下一步",
+    "done": "完成",
+    "submit": "提交",
+    "back": "返回",
+    "yes": "是",
+    "no": "否",
+    "copied": "已复制",
+    "download": "下载",
+    "undefined": "",
+    "settings_error_required": "必填项",
+    "settings_error_invalid_data": "数据格式错误",
+    "settings_error_email": "邮箱地址不正确",
+    "settings_error_integer": "请输入正整数",
+    "settings_error_port": "请输入1到65535之间的端口号",
+    "settings_error_invalid_ip": "IP地址或域名不正确",
+    "read_only_mode_in_settings": "设置已密码保护。[%输入密码%]以解锁。",
+    "read_only_mode_in_detection_statistic": "要清除检测统计信息，请[%输入密码%]。",
+    "copy": "复制",
+    "unexpected_error_title": "意外错误",
+    "unexpected_error_description": "抱歉，出了点问题",
+    "premium_trigger": "获取高级版"
+  },
+  "app_header": {
+    "is_everything_clear": "窗口内容是否清楚？",
+    "online_help": "在线帮助",
+    "product_tour": "产品导览"
+  },
+  "main_sidebar": {
+    "dashboard": "仪表盘",
+    "protection": "防护",
+    "upgrade_protection_title": "升级防护",
+    "scan": "扫描"
+  },
+  "pages": {
+    "agreements": {
+      "eula": "最终用户许可协议",
+      "privacy_policy": "隐私政策",
+      "marketing_agreement": "关于用于营销目的的数据处理声明",
+      "supplemental_agreement": "数据处理补充声明",
+      "rdp_agreement": "RDP协议",
+      "rdp_etl_agreement": "数据处理补充声明",
+      "agreements": "协议",
+      "to_get_this_features_accept_agreements": "请查看并接受更新内容",
+      "terms_and_conditions_link": "条款和条件"
+    },
+    "dashboard": {
+      "protection_is_active": "反勒索防护已激活",
+      "protection_is_risk": "反勒索防护存在风险",
+      "protection_is_off": "反勒索防护已关闭",
+      "protection_is_warning_full_register": "需要注册",
+      "protection_is_warning_full_activate": "需要激活",
+      "protection_is_warning_limited_register": "反勒索防护受限",
+      "protection_is_warning_limited_activate": "反勒索防护受限",
+      "complete_registration_title_full_register": "请注册以激活应用",
+      "complete_registration_title_full_activate": "请激活应用",
+      "complete_registration_title_limited_register": "请注册以启用完整功能",
+      "complete_registration_title_limited_activate": "请激活以启用完整功能",
+      "malware_scan": "恶意软件扫描",
+      "boost_protection": "增强防护",
+      "free_period": "30天免费",
+      "send_email_report": "发送邮件报告",
+      "detection_statistics": "检测统计",
+      "activity_report": "活动报告",
+      "ksn": "卡巴斯基安全网络",
+      "ksn_description": "包含文件、网络资源和软件声誉信息的云端数据库。",
+      "safe_objects": "全球安全对象",
+      "dangerous_objects": "全球危险对象",
+      "in_processing_objects": "处理中",
+      "reinstall_app": "重新安装卡巴斯基反勒索工具",
+      "turn_protection_on": "开启防护",
+      "eol_product": "该应用已过时",
+      "eol_description": "请下载并安装最新的安全软件。",
+      "configure_notifications_first": "请先配置通知",
+      "updating": "更新中",
+      "description_warning_full_register": "请注册以激活应用",
+      "description_warning_full_activate": "请激活应用",
+      "description_warning_limited_register": "请注册以启用完整功能",
+      "description_warning_limited_activate": "请激活以启用完整功能",
+      "register": "注册",
+      "activate": "激活",
+      "already_register": "已注册",
+      "get_premium": "获取高级版",
+      "scan_for_threats": "扫描威胁",
+      "scan_failed_common": "扫描失败"
+    },
+    "protection": {
+      "anti_ransomware": "反勒索",
+      "ksn": "卡巴斯基安全网络",
+      "behavior_detection": "行为检测",
+      "exploit_prevention": "漏洞防护",
+      "remediation_engine": "修复引擎",
+      "get_premium": "获取高级版",
+      "security_controls": "安全控制",
+      "application_control": "应用控制",
+      "device_control": "设备控制",
+      "web_control": "网页控制",
+      "adaptive_anomaly_control": "自适应异常控制",
+      "anti_malware": "反恶意软件",
+      "file_threat_protection": "文件威胁防护",
+      "web_threats_protection": "网页威胁防护",
+      "mail_threats_protection": "邮件威胁防护",
+      "network_threats_protection": "网络威胁防护",
+      "amsi_protection_provider": "AMSI防护提供者",
+      "data_encryption": "数据加密",
+      "full_disk_encryption": "全盘加密",
+      "encryption_of_removable_drives": "可移动磁盘加密"
+    },
+    "upgrade_protection": {
+      "improve_protection_with_premium": "使用高级版增强防护",
+      "devices": "设备",
+      "protection": "防护",
+      "web_protection": "网页防护",
+      "email_protection": "邮件防护",
+      "threats_removal": "威胁移除",
+      "management_console": "管理控制台",
+      "support": "支持",
+      "additional_features": "附加功能",
+      "anti_ransomware_free_protection": "反勒索免费防护",
+      "anti_ransomware_tool": "反勒索工具",
+      "anti_ransomware_only": "仅反勒索",
+      "only_blocking": "仅阻止",
+      "community": "社区",
+      "installed": "已安装",
+      "business_premium_protection": "企业高级防护",
+      "home_premium_protection": "家庭高级防护",
+      "kesc": "端点安全云",
+      "total_security": "全面安全",
+      "all_types_of_threats": "所有类型威胁",
+      "blocking_and_removal": "阻止和清除",
+      "technical_support_service": "技术支持服务",
+      "endpoint_controls_encryption": "加密",
+      "buy_now": "立即购买",
+      "boost_protection": "增强防护",
+      "free_period": "30天免费",
+      "try_now": "立即体验",
+      "vpn_password_manager": "VPN、密码管理器",
+      "select": "选择"
+    },
+    "scan": {
+      "title": "扫描",
+      "mlws_section_title": "恶意软件扫描",
+      "mlws_section_description": "扫描计算机目录。此操作可能耗时较长并影响计算机性能。",
+      "mlws_button_label": "恶意软件扫描",
+      "last_scan": "上次扫描",
+      "last_scan_incomplete": "上次扫描未完成",
+      "malware_detected": "发现恶意软件",
+      "vuln_section_title": "检查应用程序漏洞",
+      "vuln_section_description": "搜索已安装应用程序的易受攻击版本。",
+      "vuln_scan_button_label": "漏洞扫描",
+      "vulnerabilities_detected": "发现漏洞",
+      "never": "从无",
+      "vuln_scan_in_progress": "漏洞扫描进行中...",
+      "mlws_in_progress": "恶意软件扫描进行中..."
+    },
+    "support": {
+      "get_support_title": "支持",
+      "terms_and_conditions_link": "条款和条件",
+      "link_online_help_title": "前往在线帮助",
+      "link_online_help_description": "在浏览器中打开卡巴斯基反勒索工具帮助文档。",
+      "link_forum_title": "前往我们的社区",
+      "link_forum_description": "与其他用户和我们的支持团队讨论问题。",
+      "link_premium_support_title": "高级支持",
+      "link_premium_support_description": "24/7提供卡巴斯基支持团队的支持。",
+      "support_enable_tracing_title": "应用程序日志记录",
+      "support_enable_tracing_subtitle": "选择以收集技术信息。",
+      "what_to_collect": "详细级别",
+      "recommended": "推荐",
+      "all_events": "最大",
+      "attention_consuming": "日志可能占用大量磁盘空间。",
+      "cryptopro_library": "由OOO CryptoPro开发的CryptoPro程序库用于检查数字签名。",
+      "show_ids": "显示ID",
+      "support_description_3": "© 2024 AO 卡巴斯基实验室"
+    },
+    "settings": {
+      "proxy": {
+        "proxy_server": "代理服务器设置",
+        "proxy_server_mode_0_title": "自动检测代理服务器设置",
+        "proxy_server_mode_1_title": "使用指定的代理服务器设置",
+        "proxy_server_mode_2_title": "不使用代理服务器",
+        "bypass_proxy": "对本地地址绕过代理服务器",
+        "authentication_required": "使用身份验证",
+        "check_settings": "检查设置"
+      },
+      "notifications": {
+        "notifications": "通知",
+        "notifications_of_uploaded_files": "下载文件安全性通知",
+        "notifications_of_uploaded_files_description": "发送检查下载文件夹中.exe文件的结果通知。",
+        "user_with_email": "电子邮件报告",
+        "user_with_email_description": "发送检测到的威胁、扫描结果以及PC上的防护活动信息。",
+        "by_schedule": "按计划",
+        "send_report_by_schedule": "在指定时间发送报告。",
+        "every_week": "每周",
+        "every_month": "每月",
+        "manually": "手动",
+        "monday": "星期一",
+        "tuesday": "星期二",
+        "wednesday": "星期三",
+        "thursday": "星期四",
+        "friday": "星期五",
+        "saturday": "星期六",
+        "sunday": "星期日",
+        "daily": "每天",
+        "manual_report_comment": "从主窗口手动发送报告。",
+        "when_threat_detect": "检测到威胁时",
+        "when_threat_detect_description": "检测到威胁时立即发送报告。",
+        "email_settings_title": "电子邮件设置",
+        "name": "您的姓名",
+        "position": "职位",
+        "administrators_email": "管理员电子邮件地址",
+        "users_email": "您的电子邮件地址",
+        "smtp_server": "SMTP服务器",
+        "connection_security_title": "连接安全",
+        "starttls": "STARTTLS",
+        "ssl_tls": "SSL/TLS",
+        "send_test_message": "发送测试消息",
+        "kl_doesnt_receive_data": "卡巴斯基不会接收这些数据。它们仅用于生成和发送报告给您的系统管理员。"
+      },
+      "folders_protection": {
+        "shared_folders_protection": "共享文件夹防护",
+        "shared_folders_protection_description": "如果远程设备尝试加密共享文件夹，卡巴斯基反勒索工具将阻止该设备连接到共享文件夹。",
+        "blocking_time": "阻止连接时间：",
+        "minutes": "分钟",
+        "blocking_time_input_error": "（必填）",
+        "permitted_values": "数值必须在 1 到 99 之间。"
+      },
+      "types_of_objects": {
+        "objects_to_detect_settings_left_menu": "检测对象类型",
+        "malware": "恶意软件",
+        "adware_riskware": "广告软件及其他（包括加密挖矿软件）"
+      },
+      "exploit_prevention": {
+        "exploit_prevention": "漏洞利用防护",
+        "exploit_prevention_enabled": "阻止漏洞利用",
+        "exploit_functionality_explanation": "阻止利用软件漏洞进行的恶意活动。",
+        "system_process_memory_enabled": "保护系统进程内存",
+        "protect_memory_description": "防止外部进程读取系统进程内存（例如，防止外部软件窃取用户登录名和密码）"
+      },
+      "password_protection": {
+        "password_protection_feature": "密码保护",
+        "password_protection_enabled": "设置密码保护",
+        "password_protection_explanation": "防止未经授权或意外更改应用程序设置。",
+        "confirm_password": "重新输入密码",
+        "passwordsDoNoMatch": "两次输入的密码不一致！",
+        "empty_password": "密码不能为空！"
+      },
+      "exclusions": {
+        "exclusions": "排除项",
+        "exclusion_warning": "请仅添加您信任的机器和应用程序！",
+        "logon_event_is_enabled": "要正确添加机器排除项，请确保 Windows 设置中启用了“审核登录事件”功能。",
+        "trusted_title": "受信任的应用程序",
+        "trusted_machines_title": "受信任的机器",
+        "add_apps": "添加应用程序",
+        "add_machines": "添加机器",
+        "empty_trusted_apps_title": "尚未添加任何受信任的应用程序。",
+        "empty_trusted_machine_title": "尚未添加任何受信任的机器。"
+      },
+      "blocked_items": {
+        "blocked_items": "已阻止项",
+        "unblock_exclusion_warning": "请确保仅解除您信任的应用程序和/或机器的阻止！",
+        "machines_with_detected_ip": "仅显示检测到 IP 地址的机器",
+        "blocked_apps": "已阻止的应用程序",
+        "blocked_machines": "已阻止的机器",
+        "empty_blocked_apps_title": "尚未阻止任何应用程序。",
+        "empty_blocked_machine_title": "尚未阻止任何机器。",
+        "move_to_trusted": "移至受信任"
+      },
+      "about": {
+        "about": "关于",
+        "registration_code": "注册码",
+        "course_title": "注册并获取",
+        "course_description": "免费在线课程，教您如何在社交媒体世界中保持安全，避免成为网络诈骗的受害者。",
+        "learn_more": "了解更多",
+        "express_course_against_scam": "防诈骗速成课程",
+        "free_lesson": "免费课程"
+      }
+    },
+    "malware_scan": {
+      "malware_scan": "恶意软件扫描",
+      "scan_runs_within_areas": "扫描大部分易感染的 PC 区域：",
+      "startup_users_windows": "启动项、用户和 Windows",
+      "scan": "扫描",
+      "next_scheduled_scan": "下次计划扫描",
+      "last_finished_malware_scan": "上次完成的恶意软件扫描",
+      "objects_scanned_last_week": "扫描对象",
+      "failed_ksn_object": "未处理",
+      "malware_detected": "发现恶意软件",
+      "premium_malware_scan": "高级恶意软件扫描：",
+      "granular_settings_of_scan": "可配置的扫描区域和对象粒度设置",
+      "auto_removal_threats": "自动清除检测到的威胁",
+      "conf_scan_schedule": "可配置的扫描计划",
+      "scan_in_progress": "恶意软件扫描进行中...",
+      "you_may_close_window_scanning_continue": "您可以关闭此窗口，扫描将在后台继续",
+      "tooltip_malware_was_blocked": "恶意软件已被阻止",
+      "detected_object": "检测到的对象",
+      "tooltip_file_path_title": "文件路径：",
+      "tooltip_file_title": "文件名：",
+      "scanning_files_in": "正在扫描文件夹",
+      "scan_in": "在",
+      "completed": "已完成",
+      "not_scheduled": "未计划",
+      "malware_scan_was_interrupted": "扫描被中断。",
+      "malware_scan_failed": "请检查您的网络连接。",
+      "tooltip_scan_disabled_full_activate": "完成激活",
+      "tooltip_scan_disabled_full_register": "完成注册",
+      "tooltip_scan_disabled_limited_activate": "激活以启用恶意软件扫描",
+      "tooltip_scan_disabled_limited_register": "注册以启用恶意软件扫描"
+    },
+    "vuln_scan": {
+      "vulnerability_scan": "漏洞扫描",
+      "placeholder_image": "扫描安装的应用程序中的安全漏洞",
+      "scan": "扫描",
+      "register_cta_register": "注册以启用漏洞扫描",
+      "register_cta_activate": "激活以启用漏洞扫描",
+      "register_cta": "注册以启用漏洞扫描",
+      "premium_features_title": "高级漏洞扫描",
+      "premium_item_auto_fix": "检测漏洞、更新和弱OS设置",
+      "premium_item_granular_report": "通过单一控制台自动安装更新",
+      "premium_item_detailed_info": "查看所有检测到漏洞的详细信息",
+      "next_scheduled_scan": "下次计划扫描",
+      "not_scheduled": "未计划",
+      "scan_in_progress": "漏洞扫描进行中...",
+      "you_may_close_window_scanning_continue": "您可以关闭此窗口，扫描将在后台继续",
+      "installed_applications": "已安装的应用程序",
+      "no_vulnerable_app_found": "未发现漏洞",
+      "detected": "检测到",
+      "last_finished_scan": "上次完成扫描",
+      "vulnerabilities_detected": "发现漏洞",
+      "vuln_scan_interrupted": "扫描被中断。",
+      "vuln_scan_error": "发生意外错误",
+      "vuln_scan_not_ready": "请检查您的网络连接。"
+    },
+    "details": {
+      "detection_statistics": "检测统计",
+      "detection_statistics_caption": "在此查看检测到的对象详细信息",
+      "detection_statistics_popup": "检测到的恶意软件将从列表中移除，但不会从您的PC中删除。",
+      "detection_statistics_clear_button": "清除统计",
+      "threat_rollback_file": "回滚文件",
+      "threat_blocked": "阻止",
+      "threat_rollback_process": "回滚进程",
+      "threat_rollback_registry": "回滚注册表",
+      "tooltip_malicious_program_blocked": "对象被阻止",
+      "tooltip_machine_blocked": "机器被阻止",
+      "tooltip_exploit_blocked": "漏洞被阻止",
+      "tooltip_rollback_file_renamed": "文件重命名",
+      "tooltip_rollback_file_restored": "文件恢复",
+      "tooltip_rollback_file_deleted": "文件删除",
+      "tooltip_rollback_file_copied": "文件复制",
+      "tooltip_rollback_process_terminated": "进程终止",
+      "tooltip_rollback_registry_deleted": "注册表值删除",
+      "tooltip_rollback_registry_restored": "注册表值恢复",
+      "remoteMachine": "远程机器",
+      "tooltip_remote_path_title": "机器名称 (IP)：",
+      "tooltip_threat_title": "检测对象路径：",
+      "tooltip_registry_value_title": "值：",
+      "tooltip_registry_path_title": "注册表路径：",
+      "tooltip_file_title": "文件名：",
+      "tooltip_file_path_title": "文件路径：",
+      "additional_detection_with_premium": "使用高级功能可检测更多威胁",
+      "premium_technologies": "高级技术：",
+      "protection_3_title": "机器学习",
+      "protection_4_title": "专家分析",
+      "protection_5_title": "自动分析",
+      "premium_protection_components": "高级防护组件：",
+      "web_email_amsi_protection": "网页、邮件、AMSI防护",
+      "intrusion_prevention": "入侵防护",
+      "automatic_removal_in_premium": "在高级版中可自动清除检测到的对象",
+      "detection_statistics_cleaned": "统计已成功清除",
+      "detection_statistics_no_detects": "一旦检测到新危险对象，数据将显示在此处"
+    },
+    "activity_report": {
+      "activity_report": "活动报告",
+      "kart_performed_activities_to_protect": "卡巴斯基反勒索工具执行了以下操作以保护您的计算机。",
+      "detected_blocked": "检测/阻止",
+      "last_seven_days": "最近7天",
+      "last_thirty_days": "最近30天",
+      "real_time_protection": "实时防护",
+      "rolled_back_files": "回滚文件",
+      "scanned": "已扫描",
+      "applications_processes": "应用程序 / 进程",
+      "file_objects": "文件对象",
+      "total_number": "总数",
+      "malware_scan": "恶意软件扫描",
+      "blocked_apps": "已阻止应用程序",
+      "network_attacks": "网络攻击",
+      "blocked_machines": "已阻止机器",
+      "manage_protection_all_devices": "通过以下方式管理所有设备的防护：",
+      "cloud_management_console": "基于云的管理控制台",
+      "detailed_reports": "详细报告",
+      "pictorial_widgets": "易于阅读的监控小部件"
+    }
+  },
+  "modals": {
+    "what_is_new": {
+      "modal_what_is_new": "欢迎使用版本 6.6！",
+      "what_is_new_description": "我们已升级了前一版本：",
+      "you_have_to_accept_agreements": "请查看并接受更新条款以获取这些功能。",
+      "view_and_accept": "查看"
+    },
+    "onboarding": {
+      "welcome_to": "欢迎使用",
+      "take_quick_tour": "快速了解产品主要功能！\n只需不到2分钟。",
+      "tip": "提示",
+      "of": "的",
+      "protection_status": "防护状态",
+      "protection_status_on_description": "您的反勒索防护已激活。防护状态显示在主界面上。",
+      "protection_status_off_description": "您的反勒索防护已关闭。防护状态显示在主界面上。",
+      "protection_status_limited_unregistered_description": "您的反勒索防护受限。请注册以激活完整功能。防护状态显示在主界面上。",
+      "protection_status_limited_unactivated_description": "您的反勒索防护受限。请激活应用以启用完整功能。",
+      "objects_to_detect": "检测对象",
+      "add_additional_layer_protection": "您可以现在添加额外的防护层，并在稍后更改。",
+      "adware_other_cryptominers": "广告软件及其他（包括加密挖矿软件）",
+      "detection_statistics": "检测统计",
+      "detection_statistics_onboarding_description": "产品提供实时反勒索防护。检测对象的详细信息可在检测统计中查看。",
+      "email_reporting": "电子邮件报告",
+      "email_reporting_description": "电子邮件报告可让您即时或定期接收PC上检测到威胁的通知。",
+      "malware_scan": "恶意软件扫描",
+      "activity_report": "活动报告",
+      "activity_report_onboarding_description": "在活动报告部分查看为保护您的PC所执行的操作列表。",
+      "help": "帮助",
+      "help_onboarding_description": "如有困难，请按 F1、Alt+F1 或点击帮助图标访问在线帮助。",
+      "complete_tour": "完成导览",
+      "configure_email_reports_description": "您还可以配置电子邮件报告，以定期或即时接收PC的防护状态通知。",
+      "configure_email_reports": "配置电子邮件报告",
+      "scan_section_title": "扫描功能",
+      "not_activated": {
+        "full_scanning_functionality": "您可以在此扫描PC的恶意软件和漏洞应用程序。此功能仅适用于注册用户。",
+        "ms_scanning_functionality": "您可以在此扫描PC的恶意软件。此功能仅适用于注册用户。",
+        "vs_scanning_functionality": "您可以在此扫描PC的漏洞应用程序。此功能仅适用于注册用户。"
+      },
+      "activated": {
+        "full_scanning_functionality": "您可以在此扫描PC的恶意软件和漏洞应用程序。",
+        "ms_scanning_functionality": "您可以在此扫描PC的恶意软件。",
+        "vs_scanning_functionality": "您可以在此扫描PC的漏洞应用程序。"
+      },
+      "full_functionality_available": {
+        "full_scanning_functionality": "您可以在此扫描PC的恶意软件和漏洞应用程序。",
+        "ms_scanning_functionality": "您可以在此扫描PC的恶意软件。",
+        "vs_scanning_functionality": "您可以在此扫描PC的漏洞应用程序。"
+      }
+    },
+    "registration_steps": {
+      "register_to_proceed_using": "请注册卡巴斯基以在您的设备上激活免费防护",
+      "first_name": "名字",
+      "last_name": "姓氏",
+      "send_here_activation_code": "接收激活码",
+      "email": "邮箱",
+      "phone": "电话号码",
+      "registration_form_agreement_disclaimer": "我同意向卡巴斯基提供我的联系信息并接收广告信息。我理解我可以随时通过邮件或访问 www.kaspersky.com/web-privacy-policy 撤回同意。",
+      "kaspersky_web_privacy_policy": "www.kaspersky.com/web-privacy-policy",
+      "registration_form_register": "注册",
+      "registration_form_sign_in": "已有账号",
+      "course_description": "免费在线课程，教您如何在社交媒体世界中保持安全，避免成为网络诈骗的受害者。",
+      "course_title": "注册并获取",
+      "learn_more": "了解更多",
+      "and_less": "及其他",
+      "company_name": "公司名称",
+      "number_of_pc": "公司电脑数量",
+      "number_of_pc_home": "电脑数量",
+      "country": "国家",
+      "select_country_placeholder": "选择国家",
+      "state_province": "省/州",
+      "select_province_placeholder": "选择省/州",
+      "course_description_registered": "注册完成后，您将获得一个免费在线课程。",
+      "course_title_registered": "获取免费课程",
+      "additional_information": "附加信息",
+      "and_more": "更多"
+    },
+    "registration": {
+      "register_to_proceed_using": "请注册卡巴斯基以在您的设备上激活免费防护",
+      "registration_form_sign_in": "已有账号",
+      "registration_form_register": "注册",
+      "first_name": "名字",
+      "send_here_activation_code": "接收激活码",
+      "email": "邮箱",
+      "company_name": "公司名称",
+      "country": "国家",
+      "last_name": "姓氏",
+      "phone": "电话号码",
+      "number_of_pc": "公司电脑数量",
+      "state_province": "省/州",
+      "kaspersky_web_privacy_policy": "www.kaspersky.com/web-privacy-policy",
+      "registration_form_agreement_disclaimer": "我同意向卡巴斯基提供我的联系信息并接收广告信息。我理解我可以随时通过邮件或访问 www.kaspersky.com/web-privacy-policy 撤回同意。",
+      "course_title": "注册并获取",
+      "course_description": "免费在线课程，教您如何在社交媒体世界中保持安全，避免成为网络诈骗的受害者。",
+      "invalid_email": "邮箱无效",
+      "select": "选择"
+    },
+    "registration_complete": {
+      "registration_complete": "注册完成",
+      "use_code_for_future_registration": "请使用此代码进行未来注册。您可以在“关于”窗口中找到它。",
+      "thanks_for_registration": "感谢您的注册！"
+    },
+    "sign_in": {
+      "title": "激活码",
+      "description": "我们之前已发送激活码。请在此输入以激活您的卡巴斯基反勒索工具。",
+      "input_description": "激活码",
+      "confirm_code": "确认码",
+      "change_email": "更改邮箱",
+      "registration_code_invalid": "激活码无效",
+      "registration_code_invalid_for_edition": "激活码与您的产品版本不匹配。"
+    },
+    "thank_you_registering": {
+      "thanks_for_registration": "感谢您的注册！",
+      "description": "我们已发送一封包含激活码的邮件至 <0>{{email}}</0>。请在此输入以激活您的恶意软件防护。邮件通常会在5分钟内送达。",
+      "send_again": "重新发送",
+      "input_description": "激活码",
+      "resend_code": "重新发送码",
+      "confirm_code": "确认码",
+      "change_email": "更改邮箱",
+      "registration_code_invalid": "激活码无效",
+      "registration_code_invalid_for_edition": "激活码与您的产品版本不匹配"
+    },
+    "thank_you_page_feedback": {
+      "tks_for_ur_feedback": "感谢您的反馈！"
+    },
+    "thank_you_app_feedback": {
+      "tks_for_ur_feedback": "感谢您的反馈！",
+      "may_be_you_have_got_time_to_answer": "您还有几分钟时间吗？",
+      "we_will_be_grateful": "请评价应用并留下任何额外评论。您的反馈将帮助我们改进服务。",
+      "complete_the_full_survey": "请参加我们的客户满意度调查（3-5分钟）"
+    },
+    "ids": {
+      "my_ids": "我的ID",
+      "installation_id": "安装ID",
+      "machine_id": "机器ID"
+    },
+    "confirm_clear_statistics": {
+      "detection_statistics_modal_title": "您确定要清除检测统计吗？",
+      "detection_statistics_modal_description": "请注意，检测到的恶意软件仍将存在于您的PC上。恶意软件扫描和活动报告中的检测统计不会被清除。",
+      "clear": "清除"
+    },
+    "feedback_page": {
+      "is_everything_clear": "此窗口内容是否清楚？",
+      "what_do_better": "我们还能做些什么更好？",
+      "what_is_missing": "告诉我们缺少或令人困惑的内容",
+      "send": "发送"
+    },
+    "feedback_product": {
+      "leave_your_feedback": "请评价应用并留下您的反馈",
+      "feedback_option_1": "产品质量差",
+      "feedback_option_1_description": "（错误、漏洞、崩溃、性能和兼容性问题）",
+      "feedback_option_2": "性能缓慢",
+      "feedback_option_2_description": "（计算机或应用程序冻结）",
+      "feedback_option_3": "防护水平低",
+      "feedback_option_3_description": "（某些恶意软件未被检测到）",
+      "feedback_option_4": "产品质量差",
+      "feedback_option_4_description": "（错误、漏洞、崩溃、性能和兼容性问题）",
+      "feedback_option_5": "性能缓慢",
+      "feedback_option_5_description": "（计算机或应用程序冻结）",
+      "feedback_option_6": "防护水平低",
+      "feedback_option_6_description": "（某些恶意软件未被检测到）",
+      "feedback_option_7": "产品质量差",
+      "feedback_option_7_description": "（错误、漏洞、崩溃、性能和兼容性问题）",
+      "feedback_option_8": "性能缓慢",
+      "feedback_option_8_description": "（计算机或应用程序冻结）",
+      "feedback_option_9": "防护水平低",
+      "feedback_option_9_description": "（某些恶意软件未被检测到）",
+      "feedback_option_10": "高水平防护",
+      "feedback_option_11": "出色的可用性",
+      "feedback_option_12": "免费软件",
+      "feedback_option_13": "高水平防护",
+      "feedback_option_14": "出色的可用性",
+      "feedback_option_15": "免费软件",
+      "share_you_thoughts": "分享您对用户体验的想法：",
+      "complete_the_full_survey": "请参加我们的客户满意度调查（3-5分钟）"
+    },
+    "add_machine": {
+      "add_machine": "添加机器",
+      "ip_for_example": "IP或域名（例如，10.10.10.10）"
+    },
+    "enter_password": {
+      "enter_password_to_confirm": "要解锁设置，请输入密码。",
+      "invalid_password": "密码无效！",
+      "remember_password": "记住此会话的密码"
+    },
+    "installation_success": {
+      "installation_complete": "安装完成",
+      "kaspersky_installed": "卡巴斯基反勒索工具已成功安装在您的计算机上"
+    },
+    "move_to_trusted": {
+      "move_to_trusted_title": "您确定要将此项目移至排除项吗？",
+      "move_to_trusted_description": "该项目将不再被阻止",
+      "to_exclusions": "移至排除项",
+      "view": "查看",
+      "item_moved_to_exclusions": "项目已成功移至排除项"
+    },
+    "onboarding_interrupt": {
+      "product_was_interrupted": "产品导览被中断",
+      "continue_tour": "现在继续导览并了解关键产品功能",
+      "to_product_tour": "前往产品导览"
+    },
+    "user_confirmation": {
+      "save_your_changed_settings": "您要保存更改吗？",
+      "save_your_changed_settings_description": "如果不保存，您的应用设置更改将丢失。",
+      "without_saving": "不保存"
+    },
+    "successful_activate": {
+      "title": "激活成功",
+      "description_limited_activate": "您的产品已激活！完整功能现已可用。",
+      "description": "激活成功！",
+      "description_full_activate": "激活成功！"
+    }
+  },
+  "balloons": {
+    "file_status_layout": {
+      "do_not_show_message_again": "不再显示此消息",
+      "file_name": "完整名称",
+      "file_type": "类型",
+      "digital_signature": "数字签名",
+      "file_size": "大小",
+      "file_path": "路径"
+    },
+    "threat_message_layout": {
+      "threat_detected": "检测到威胁",
+      "threat_located": "位置"
+    },
+    "failed_to_send_email": {
+      "failed_to_send_report": "报告发送失败",
+      "check_email_settings": "检查您的电子邮件设置或联系系统管理员。",
+      "error_code": "错误代码：",
+      "open_settings": "打开设置"
+    },
+    "report_success_send": {
+      "done_with_exclamation": "完成！",
+      "success_report_sending": "报告已成功发送给管理员。"
+    },
+    "wrong_proxy_settings": {
+      "failure": "发生错误",
+      "check_the_proxy_settings": "检查指定的代理设置。"
+    },
+    "correct_proxy_settings": {
+      "success": "成功！",
+      "proxy_settings_good": "指定的代理设置正常。"
+    },
+    "unable_send_message": {
+      "failure": "发生错误",
+      "unable_to_send_message": "无法发送测试消息。",
+      "error_code": "错误代码："
+    },
+    "success_send_message": {
+      "done_with_exclamation": "完成！",
+      "success_sending_message": "测试消息已成功发送。"
+    },
+    "malware_was_blocked": {
+      "malware_was_blocked": "恶意软件已被阻止"
+    },
+    "actions_malware_were_rolledBack": {
+      "actions_of_malware_were_rolled_back": "恶意软件操作已回滚"
+    },
+    "event_logging_enabled": {
+      "event_logging_is_enabled": "事件日志已启用",
+      "logs_take_disk_space": "日志可能占用大量磁盘空间。",
+      "disable_now": "立即禁用"
+    },
+    "machine_was_blocked": {
+      "machine_was_blocked": "机器已被阻止"
+    },
+    "blocked_legitimate_software": {
+      "legitimate_software_was_blocked": "可被用于损害您数据的合法软件已被阻止"
+    },
+    "legitimate_software_rolledBack": {
+      "actions_of_legitimate_software_were_rolled_back": "可被用于损害您数据的合法软件操作已回滚"
+    },
+    "exploit_blocked": {
+      "exploit_was_blocked": "漏洞已被阻止"
+    },
+    "update_installed_restart_need": {
+      "update_installed": "更新已安装",
+      "restart_pc_to_apply": "请重启计算机以应用更新。",
+      "fast_startup_is_enabled": "快速启动已启用",
+      "fast_startup_is_enabled_description": "如果关闭计算机，更新将不会应用。请通过开始菜单或点击此窗口中的重启按钮重启计算机。"
+    },
+    "rate_us": {
+      "rate_us": "请评价我们",
+      "help_us_improve_the_app": "通过留下您的反馈帮助我们改进应用。",
+      "rate": "评价"
+    },
+    "new_message": {
+      "new_message_from_kaspersky": "来自卡巴斯基的新消息！",
+      "we_have_something_interesting": "我们有一些有趣的内容推荐给您！"
+    },
+    "regional_data_processing": {
+      "regional_data_processing": "区域数据处理",
+      "regional_data_processing_description": "本软件在相关法律下运行并处理数据，并使用适当的基础设施。"
+    },
+    "agreements_enabling_protection": {
+      "new_version_is_installed": "新版本已安装",
+      "activate_to_enable_protection": "立即激活以启用新功能"
+    },
+    "proxy_request": {
+      "use_proxy_server_auth": "使用代理服务器身份验证"
+    },
+    "password_request": {
+      "enter_password_to_confirm_action": "请输入密码以确认操作",
+      "invalid_password": "密码无效！"
+    },
+    "malware_was_found": {
+      "malware_is_found_on_your_machine": "您的计算机上检测到恶意软件",
+      "malware_is_found_on_your_machine_description": "我们强烈建议您手动或使用我们的高级版产品自动移除检测到的恶意软件",
+      "go_to_report": "查看报告"
+    },
+    "malware_was_not_found": {
+      "malware_check_was_finished": "恶意软件扫描已完成",
+      "malware_was_not_found": "未发现恶意软件",
+      "go_to_report": "查看报告"
+    },
+    "send_dump_report": {
+      "help_us_get_better": "帮助我们做得更好！",
+      "application_was_terminated_incorrectly": "应用程序异常终止。请将此问题报告给卡巴斯基实验室。",
+      "dump_report_includes_information": "此报告包含有关您的操作系统、产品转储文件和跟踪（如已启用）的信息。",
+      "you_can_inspect_collected_data": "您可以在文件夹中查看收集到的数据",
+      "describe_the_issue": "描述发生的问题",
+      "checkbox_send_dump_agr_confirmation": "我确认我已完整阅读、理解并接受以下条款和条件",
+      "statement_data_processing_agreement": "数据处理声明",
+      "send": "发送"
+    },
+    "malware_report_failed": {
+      "malware_scan_stopped": "恶意软件扫描已停止",
+      "restart_task_manually": "请检查您的网络连接并手动重启任务"
+    },
+    "undoc_disabling": {
+      "processing_of_some_functions_disabled": "部分操作系统功能已被禁用",
+      "some_os_features_processing_disabled_description": "此限制可能是由于操作系统升级或第三方软件安装导致。该限制将在应用最新版本中消除。"
+    },
+    "activity_report": {
+      "activity_report_is_ready": "活动报告已准备好",
+      "activity_report_description": "查看保护您的 PC 的活动列表。",
+      "go_to_report": "前往报告"
+    },
+    "new_version_available": {
+      "new_version_is_available": "新版本已发布",
+      "please_install_manually": "请手动安装该版本",
+      "install": "安装",
+      "remind_later": "稍后提醒"
+    },
+    "old_version_uninstall_failed": {
+      "old_version_uninstall_failed": "旧版本卸载失败",
+      "please_uninstall_manually": "请手动卸载旧版本",
+      "find_out_how": "了解方法"
+    },
+    "send_etl_report": {
+      "help_us_get_better": "帮助我们做得更好！",
+      "we_notice_performance_issues": "我们注意到产品存在一些性能问题。请将报告发送给卡巴斯基。",
+      "etl_report_includes_information": "该报告包含有关您的操作系统和操作系统事件诊断数据的信息",
+      "you_can_inspect_collected_data": "您可以在文件夹中查看收集到的数据",
+      "checkbox_send_dump_agr_confirmation": "我确认我已完整阅读、理解并接受以下条款和条件",
+      "statement_data_processing_agreement": "数据处理声明",
+      "send": "发送"
+    },
+    "no_exit_while_new_installation": {
+      "exit_is_forbidden": "禁止退出",
+      "product_update_in_progress": "产品正在更新"
+    },
+    "tfu_manual_upgrade_request": {
+      "silent_installation_failed": "静默安装失败",
+      "download_install_manually": "请手动下载并安装卡巴斯基反勒索工具"
+    },
+    "failed_get_form_manually": {
+      "failed_to_get_registration_form": "获取注册表单失败",
+      "please_try_again_later": "请稍后再试"
+    },
+    "downloaded_file_is_safe": {
+      "file_is_safe": "文件安全"
+    },
+    "downloaded_file_is_danger": {
+      "file_is_danger": "危险文件已被拦截"
+    },
+    "accept_agreements": {
+      "read_and_accept_the_documents_below": "请阅读并接受以下文件",
+      "read_and_accept_the_documents_subheader": "...以便使用免费的卡巴斯基家用反勒索工具。如果您不同意这些条款和条件，应用将无法运行。",
+      "read_and_accept_the_documents_confirm": "我确认我已完整阅读、理解并接受以下内容：",
+      "eula": "最终用户许可证协议",
+      "eula_checkbox_label": "我确认我已完整阅读、理解并接受本最终用户许可证协议的条款和条件",
+      "privacy_policy": "隐私政策",
+      "privacy_policy_checkbox_label": "我已知晓并同意按照隐私政策中的描述处理和传输我的数据（包括传输至第三方国家）",
+      "supplemental_agreement": "数据处理补充声明",
+      "supplemental_checkbox_label": "我确认我已完整阅读、理解并接受本数据处理补充声明的条款和条件",
+      "marketing_agreement": "营销数据处理声明",
+      "marketing_checkbox_label": "我确认我已完整阅读、理解并接受营销数据处理声明"
+    },
+    "boost_protection": {
+      "boost_protection": "增强防护",
+      "boost_protection_title": "提升保护",
+      "boost_protection_description": "试用卡巴斯基端点安全软件并激活全面保护：",
+      "boost_protection_list": [
+        "威胁清除",
+        "网页防护",
+        "邮件防护",
+        "管理控制台",
+        "加密",
+        "以及更多"
+      ],
+      "dont_show_this_message": "不再显示此消息",
+      "what_will_you_get": "你将获得什么？",
+      "back_to_kart": "您可以随时切换回卡巴斯基反勒索工具。"
+    },
+    "start_migration": {
+      "protection_upgrade_header": "防护升级",
+      "protection_upgrade_description": "本向导将安装并激活卡巴斯基端点安全软件的 30 天试用版。",
+      "keep_following_mind": "请注意以下事项：",
+      "keep_following_mind_list": [
+        "确保您有互联网连接以激活应用。",
+        "在升级过程中，您的 PC 防护将被暂时禁用。",
+        "确保在安装卡巴斯基端点安全软件时没有其他软件安装或更新正在进行。"
+      ],
+      "keep_following_mind_extra_server_os": "如果您的计算机已启用 Windows Defender，我们将在升级过程中自动禁用它。",
+      "see_details": "详情请参阅在线帮助",
+      "eula": "最终用户许可协议",
+      "read_and_accept_eula": "请仔细阅读以下最终用户许可协议",
+      "eula_checkbox_label": "我确认我已完整阅读、理解并接受本最终用户许可协议的条款和条件",
+      "privacy_policy_checkbox_label": "我已知晓并同意按照隐私政策中的描述处理和传输我的数据（包括传输至第三方国家）。我确认我已完整阅读并理解隐私政策",
+      "enter_password_to_confirm": "要解锁设置，请输入密码。",
+      "invalid_password": "密码无效！",
+      "has_blocked_threats_title": "升级错误",
+      "has_blocked_threats_description": "卡巴斯基反勒索工具检测到您的 PC 上存在被阻止或未解决的威胁。请消除这些威胁以继续升级至卡巴斯基端点安全软件。",
+      "no_disk_space_title": "升级错误",
+      "no_disk_space_description": "升级到卡巴斯基端点安全软件的磁盘空间不足。",
+      "need_reboot_title": "需要重启",
+      "need_reboot_description": "您的 PC 需要重启。",
+      "update_kart_title": "升级错误",
+      "update_kart_description": "更新后请重启卡巴斯基反勒索工具。",
+      "is_eol_title": "升级错误",
+      "is_eol_description": "当前应用版本不再受支持。",
+      "preparing_migration_title": "准备迁移中",
+      "preparing_migration_description": "请稍候..."
+    },
+    "eol_product": {
+      "eol_product": "应用已过时",
+      "eol_description": "下载并安装新版安全软件。"
+    },
+    "complete_registration": {
+      "full": {
+        "title": "完成注册",
+        "description": "请完成注册表单。",
+        "complete_button": "完成"
+      },
+      "limited": {
+        "title": "完成注册",
+        "description": "请注册以解锁完整的应用功能。",
+        "complete_button": "完成"
+      }
+    },
+    "complete_activation": {
+      "full": {
+        "title": "完成激活",
+        "description": "请输入激活码。",
+        "complete_button": "完成"
+      },
+      "limited": {
+        "title": "完成激活",
+        "description": "请激活应用以解锁完整功能。",
+        "complete_button": "完成"
+      }
+    },
+    "try_kes_cloud": {
+      "boost_protection_title": "进一步扩展您的保护！",
+      "boost_protection_description": "试用卡巴斯基端点安全云，远程控制您的企业电脑。",
+      "learn_more": "了解更多",
+      "what_will_you_get": "您将获得什么？",
+      "boost_protection_list": [
+        "保护您的设备免受各种威胁",
+        "保护邮件和网络活动",
+        "自动安装最新更新",
+        "监控云服务和社交网络的使用情况",
+        "保护 Android 和 iOS 上的移动设备"
+      ],
+      "dont_show_this_message": "不再显示此消息",
+      "try_now": "立即试用"
+    },
+    "vuln_scan_completed_no_vulns": {
+      "vuln_scan_completed_title": "漏洞扫描已完成",
+      "vuln_scan_completed_description": "未发现漏洞。",
+      "go_to_report": "前往报告"
+    },
+    "vuln_scan_completed_vulns_found": {
+      "vuln_scan_completed_title": "我们在您的 PC 上检测到了漏洞",
+      "vuln_scan_completed_description": "我们强烈建议手动或使用我们的高级版产品自动更新存在漏洞的软件至最新版本。",
+      "go_to_report": "前往报告"
+    },
+    "remove_threat_manually": {
+      "threat_can_not_be_blocked_title": "威胁未被完全处理",
+      "threat_can_not_be_blocked_description": "威胁已被阻止，但您需要手动删除恶意文件以防止其再次运行。"
+    }
+  },
+  "air_app": {
+    "splash_progress": {
+      "installation_in_progress": "安装进行中",
+      "migration_progress_status": "请稍候..."
+    },
+    "splash_restart": {
+      "restart_required": "需要重启",
+      "need_to_restart": "您需要重启计算机。",
+      "fast_startup_is_enabled_description": "启用了快速启动。请通过开始菜单或点击此窗口中的重启按钮重启计算机。"
+    },
+    "finish_success": {
+      "migration_reboot_required": "需要重启",
+      "successfully_installed_reboot": "您需要重启计算机以完成卡巴斯基端点安全软件的安装并启用全面保护。",
+      "fast_startup_is_enabled_description": "启用了快速启动。请通过开始菜单或点击此窗口中的重启按钮重启计算机。"
+    },
+    "error_license_activation": {
+      "open_help": "打开帮助",
+      "activation_error_description": "试用版许可证激活出错，请手动激活产品",
+      "activation_error": "激活错误"
+    },
+    "error_forward_install_kes": {
+      "upgrade_error": "升级错误",
+      "kes_installation_failure_description": "我们无法完成到 KES 的迁移，需要重启计算机以完成操作。",
+      "restart_now": "立即重启",
+      "restore_kart": "恢复 KART",
+      "incompatible_soft_found": "发现不兼容的软件，请卸载后再继续升级至 Kaspersky Endpoint Security。",
+      "failed_to_disable_windows_defender": "无法自动禁用 Windows Defender，请手动禁用后再继续升级。"
+    },
+    "error_forward_no_protection": {
+      "upgrade_error": "升级错误",
+      "error_forward_no_protection_description": "我们无法安装 KES 并卸载 KART，您的防护已丢失。请使用 KAV Remover 正确卸载应用并手动重新安装 KART。",
+      "download_kav_remover": "下载 KAV Remover"
+    },
+    "error_backward_no_protection": {
+      "error_backward_no_protection_description": "我们无法恢复卡巴斯基反勒索工具的防护。您的计算机可能面临风险。请使用 kavremover 工具卸载应用，然后重新安装。",
+      "upgrade_error": "升级错误",
+      "download_kav_remover": "下载 KAV Remover"
+    },
+    "error_backward_kes_uninstallation": {
+      "can_not_uninstall_kes_title": "卸载失败",
+      "can_not_uninstall_kes_description": "我们无法卸载 KES，请尝试手动卸载。",
+      "uninstall_kes_manually": "手动卸载"
+    },
+    "kart_restoration": {
+      "restore_kart_title": "恢复卡巴斯基反勒索工具的防护？",
+      "restore_kart_description": "您已卸载 Kaspersky Endpoint Security，现在您的计算机未受保护。建议恢复卡巴斯基反勒索工具的防护。",
+      "restore": "恢复"
+    },
+    "license_expired_0": {
+      "license_expired_first_title": "许可证已过期",
+      "license_expired_first_description": "KES 试用许可证已过期，系统可能存在安全风险。",
+      "buy_license": "购买许可证"
+    },
+    "license_expired_14": {
+      "license_expired_second_title": "许可证已于14天前过期",
+      "license_expired_second_description": "您的试用版将在15天后结束，之后将自动切换回 KART。",
+      "switch_free_version": "切换至免费版本",
+      "buy_license": "购买许可证"
+    },
+    "license_expired_30": {
+      "license_expired_third_title": "许可证已于30天前过期",
+      "license_expired_third_description": "KES 试用许可证已过期，系统可能存在安全风险。不久后您将自动切换回免费版 KART。",
+      "switch_free_version": "切换至免费版本",
+      "buy_license": "购买许可证"
+    },
+    "license_kart_auto_restoration": {
+      "license_expired_fourth_title": "迁移开始",
+      "license_expired_fourth_description": "您已超过一个月未续订 KES 试用许可证，系统可能存在安全风险。您将被自动切换回免费版 KART。",
+      "enable": "启用"
+    },
+    "kart_restoration_by_shortcut": {
+      "restore_kart_by_shortcut_title": "返回卡巴斯基反勒索工具？",
+      "no_thanks": "不，谢谢",
+      "go_back": "返回",
+      "restore_kart_by_shortcut_description": "您的 PC 上安装了 Kaspersky Endpoint Security 试用版，该版本提供更全面的防护。是否要切换回由卡巴斯基反勒索工具提供的基础防护？"
+    },
+    "kes_credentials": {
+      "credentials_required_title": "需要凭据",
+      "credentials_required_description": "请输入 Kaspersky Endpoint Security 的管理员凭据。"
+    },
+    "restart_os_notification": {
+      "block_os_restart_title": "正在升级...",
+      "block_os_restart_description": "请勿重启或关闭计算机。"
+    },
+    "kes_migration_unexpected_error": {
+      "unexpected_error_title": "升级错误",
+      "unexpected_error_description": "抱歉，出了点问题"
+    }
+  },
+  "tray": {
+    "open": "打开",
+    "settings": "设置",
+    "exit": "退出"
+  },
+  "email_template": {
+    "test_mail_header": "来自卡巴斯基的测试邮件来自",
+    "report_mail_header": "卡巴斯基报告",
+    "unknown": "未知"
+  }
+}
