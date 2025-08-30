@@ -16,8 +16,10 @@ import sys
 import tempfile
 import traceback
 from pathlib import Path
-import tkinter as tk
-from tkinter import messagebox
+from PyQt5.QtWidgets import QApplication, QMessageBox
+
+app = QApplication.instance() or QApplication(sys.argv)
+app.setStyle("Fusion")
 
 # ========= 需要替换的 JSON 内容 =========
 ENTERPRISE_JSON_CONTENT = r'''{
@@ -2060,20 +2062,20 @@ log = logging.getLogger(__name__)
 
 # ========= GUI 交互 =========
 def ask_yes_no(title: str, text: str) -> bool:
-    root = tk.Tk(); root.withdraw()
-    res = messagebox.askyesno(title, text)
-    root.destroy()
-    return res
+    result = QMessageBox.question(
+        None,
+        title,
+        text,
+        QMessageBox.Yes | QMessageBox.No,
+        QMessageBox.Yes,
+    )
+    return result == QMessageBox.Yes
 
 def show_info(title: str, text: str):
-    root = tk.Tk(); root.withdraw()
-    messagebox.showinfo(title, text)
-    root.destroy()
+    QMessageBox.information(None, title, text)
 
 def show_error(title: str, text: str):
-    root = tk.Tk(); root.withdraw()
-    messagebox.showerror(title, text)
-    root.destroy()
+    QMessageBox.critical(None, title, text)
 # ============================
 
 # ========= 权限/启动相关 =========
@@ -2212,4 +2214,4 @@ if __name__ == "__main__":
         log.error("未处理异常：\n%s", traceback.format_exc())
         show_error("Fatal Error", "程序发生未处理异常，详见控制台日志。")
     finally:
-        input("\n按回车键退出控制台...")
+        app.quit()
